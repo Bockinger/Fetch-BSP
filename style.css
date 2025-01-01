@@ -3,6 +3,28 @@
   padding: 0;
 }
 
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  background-color: beige !important;
+
+}
+
+.con_Info {
+
+  width: 100%;
+
+}
+
+.table {
+  margin-top: 100px;
+}
+
+
+
 tr :hover {
   cursor: pointer;
 }
@@ -46,12 +68,12 @@ tr :hover {
 
 
 footer {
-  height: 50px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 80px;
   width: 100%;
   background-color: beige;
-}
-
-
-.navbar {
-  background-color: beige !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
